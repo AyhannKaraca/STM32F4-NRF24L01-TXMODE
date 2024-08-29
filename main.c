@@ -122,6 +122,14 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  /* We receive data from the ADC in 16-bit format, while the data to be transmitted is 8-bit. 
+   * Therefore, we need two bytes to send data from one channel. By performing a bitwise AND with 0xFF 
+   * on the 16-bit data from Channel 1 (VR[0]), I obtain the first 8 bits of the 16-bit data. I can place 
+   * this directly into the first byte of the buffer that will hold the data to be transmitted (radio_command[0]). 
+   * For the second 8 bits of the data from Channel 1, I shift the 16-bit data 8 bits to the right and place this 
+   * into the second byte of the buffer (radio_command[1]).	*/
+	
   while (1)
   {
 	  if(data_ready){
