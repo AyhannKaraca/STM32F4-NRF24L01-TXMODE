@@ -142,7 +142,7 @@ int main(void)
 		  data_ready = false;
 	  }
 	  NRF24_Transmit(radio_command);
-	  HAL_Delay(150);
+	
 
 
 
