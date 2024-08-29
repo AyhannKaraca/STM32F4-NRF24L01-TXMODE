@@ -9,4 +9,4 @@ Popular NRF24L01 library for Arduino: [github.com/nRF24/RF24](https://github.com
 
 If you want to do something much better: https://www.edwinfairchild.com/2020/06/nrf24l01-driver-intro_18.html
 
-Arduino code: https://www.rcpano.net/2022/10/12/uzun-menzilli-uzaktan-kumanda-yapimi-diy-arduino-rc-1-8-kanal-bolum-1/
+Arduino code: https://www.rcpano.net/2022/10/12/uzun-menzilli-uzaktan-kumanda-yapimi-diy-arduino-rc-1-8-kanal-bolum-1/ 
